@@ -1,0 +1,5 @@
+parseInt - pega um valor do tipo texto e converte para valor do tipo inteiro.
+parseFloat - converte valor do tipo texto para valor do tipo float
+\n - quebra de linha
+aspas duplas - texto
+aspas simples - 
