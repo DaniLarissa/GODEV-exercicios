@@ -1,3 +1,135 @@
-#segundo-h1 {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.button {
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border: none;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    background-color: #333;
+    color: #eee;
+    width: 80%;
+    margin: auto;
+    border-right: 50px solid red;
+    padding-top: 20px;
+}
+
+.main-aside h2 {
+    text-align: center;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+
+.main-aside ul a {
+    text-decoration: none;
+    color: purple;
+}
+
+.main-aside ul a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.main-aside ul a:visited {
+    color: darkmagenta;
+}
+
+/* Formulários */
+.main-form {
+    padding-left: 30px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input {
+    padding: 10px;
+    width: 100%;
+}
+
+.main-form .form-group label {
+    display: block;
+}
+/* Positions */
+.relative {
+    position: relative;
+    border: 3px solid #333;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.relative .absolute {
+    position: absolute;
+    bottom: 0%;
+}
+
+.relative .absolute h1 {
+    margin: 0;
+}
+
+/* Barra de Navegação */
+.main-navbar {
+    background: #333;
+    color: purple;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0%;
+}
+
+/* Fixed-button */
+.fixed-button {
+    background: #333;
+    color: #eee;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+/* Categories */
+.categories ul {
+    list-style: none;
+}
+
+.categories ul li:first-child {
     color: red;
+}
+
+.categories ul li:last-child {
+    color: green;
+    font-style: italic;
+}
+
+.categories ul li:nth-child(3) {
+    color: purple;
+    font: bold;
 }

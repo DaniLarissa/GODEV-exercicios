@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Curso CSS</title>
-</head>
-<body>
-    <h1>Olá Mundo!</h1>
-    <h1 id="segundo-h1">Olá Mundo!</h1>
-    <h1>Olá Mundo!</h1>
-</body>
+  </head>
+  <body>
+    <div class="main-navbar">
+      <h1>Barra de Navegação</h1>
+    </div>
+    <div class="container">
+      <h1>Olá Mundo!</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolores
+        dolorem sint alias modi quos suscipit nam voluptatibus hic quaerat
+        consequuntur, quia voluptatum et earum odit explicabo tempora ex unde.
+      </p>
+    </div>
+
+    <aside class="main-aside">
+      <h2>Redes Sociais</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/daniella-guimaraes-8196a25b/"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="https://www.instagram.com/viajadany/">Instagram</a></li>
+      </ul>
+    </aside>
+
+    <div class="box">
+      <form action="form.php" method="POST" class="main-form">
+        <div class="form-group">
+          <label>Primeiro Nome:</label>
+          <input type="text" placeholder="Entre seu primeiro nome" />
+        </div>
+
+        <div class="form-group">
+          <label>Segundo Nome:</label>
+          <input type="text" placeholder="Entre seu segundo nome" />
+        </div>
+
+        <div class="form-group">
+          <label>Email:</label>
+          <input type="email" />
+        </div>
+
+        <div class="form-group">
+          <label>Mensagem:</label>
+          <textarea name="mensagem"></textarea>
+        </div>
+
+        <input class="button" type="submit" />
+        <!-- Botôes-->
+        <button class="button">Click me</button>
+      </form>
+    </div>
+    <div class="box relative">
+      <div class="absolute">
+        <h1>Should I stay or should I go? : )</h1>
+      </div>
+    </div>
+
+    <button class="fixed-button">Fixed</button>
+
+    <div class="box categories">
+      <h2>categories</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ul>
+    </div>
+  </body>
 </html>
