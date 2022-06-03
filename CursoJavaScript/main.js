@@ -1,19 +1,13 @@
-// Numbers
-// const number = 5;
+// Strings
 
-// console.log(number.toString());
-// console.log(typeof number.toString())
+const message = 'Hello World!'
 
-// Boleanos
-false
-true
+console.log(message.length)
 
-console.log(2 == 2)
+const names = "Dani, Daniel, Daiane";
+const firstName = 'Daniella';
+const lastName = 'Guimaraes';
 
-// Null and Undefined
-const x = null;
+console.log(`Meu nome é ${firstName.toUpperCase()} ${lastName.toLowerCase()}`);
 
-const y = undefined;
-
-const list = [1, 2, 3, 4, 5];
-const object = { name: 'Dani' } 
+console.log(names.split(","));
